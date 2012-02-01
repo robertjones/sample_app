@@ -4,5 +4,5 @@ log/*.log
 tmp/
 .sass-cache/
 congif/database.yml
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
