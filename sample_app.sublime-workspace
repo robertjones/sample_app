@@ -1,0 +1,340 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"field",
+				"field_with_erros"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"pass",
+				"password_field"
+			],
+			[
+				"encrypt",
+				"encrypt_password"
+			],
+			[
+				"subm",
+				"submitted_password"
+			],
+			[
+				"encry",
+				"encrypted_password"
+			],
+			[
+				"passwor",
+				"password_confirmation"
+			],
+			[
+				"inv",
+				"invalid_email_user"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "require 'spec_helper'\n\ndescribe SessionsController do\n	render_views\n\n	describe \"GET 'new'\" do\n\n		it \"should be successful\" do\n			get :new\n			response.should be_success\n		end\n\n		it \"should have the right title\" do\n			get :new\n			response.should have_selector(\"title\", :content => \"Sign in\")\n		end\n	end\nend\n",
+			"file": "spec/controllers/sessions_controller_spec.rb",
+			"file_size": 305,
+			"file_write_time": 129725132543153403,
+			"settings":
+			{
+				"buffer_size": 305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/sessions/new.html.erb",
+			"settings":
+			{
+				"buffer_size": 389,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 2151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/sessions_controller.rb",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 132.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Sites/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/assets/stylesheets/custom.css",
+		"/C/Sites/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/C/Sites/rails_projects/sample_app/spec/requests/users_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/C/Sites/rails_projects/sample_app/spec/controllers/users_controller_spec.rb",
+		"/C/Users/Cat and Rob/Documents/My Dropbox/Rails development notes-110114-RBJ.txt",
+		"/C/Sites/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/models/user.rb",
+		"/C/Sites/rails_projects/sample_app/app/helpers/users_helper.rb",
+		"/C/Sites/rails_projects/sample_app/spec/factories.rb",
+		"/C/Sites/rails_projects/sample_app/Gemfile",
+		"/C/Sites/rails_projects/sample_app/app/views/users/show.html.erb",
+		"/C/Sites/rails_projects/sample_app/db/migrate/20120124195601_add_email_uniqueness_index.rb",
+		"/C/Sites/rails_projects/sample_app/db/migrate/20120125202546_add_password_to_users.rb",
+		"/C/Sites/rails_projects/sample_app/config/routes.rb",
+		"/C/Sites/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/C/Sites/rails_projects/sample_app/spec/requests/layout_links_spec.rb",
+		"/C/Sites/rails_projects/sample_app/config/environments/production.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/pages/home.html.erb",
+		"/C/Sites/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
+		"/C/Sites/rails_projects/sample_app/.git/config",
+		"/C/Sites/rails_projects/sample_app/app/views/layouts/_stylesheets.html.erb",
+		"/C/Sites/rails_projects/sample_app/.autotest",
+		"/C/Sites/rails_projects/sample_app/example_user.rb",
+		"/C/Sites/rails_projects/sample_app/app/controllers/pages_controller.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/pages/help.html.erb"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "spec/controllers/sessions_controller_spec.rb",
+					"settings":
+					{
+						"buffer_size": 305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/sessions/new.html.erb",
+					"settings":
+					{
+						"buffer_size": 389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/routes.rb",
+					"settings":
+					{
+						"buffer_size": 2151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/sessions_controller.rb",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true
+}
