@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"field",
-				"field_with_erros"
+				"user",
+				"user_path"
+			],
+			[
+				"redirect",
+				"redirect_to"
+			],
+			[
+				"render",
+				"render_template"
+			],
+			[
+				"password_",
+				"password_field"
 			],
 			[
 				"password",
 				"password_confirmation"
+			],
+			[
+				"gravat",
+				"gravatar_url"
+			],
+			[
+				"have",
+				"have_selector"
+			],
+			[
+				"signin",
+				"signin_path"
+			],
+			[
+				"field",
+				"field_with_erros"
 			],
 			[
 				"pass",
@@ -40,37 +68,34 @@
 	"buffers":
 	[
 		{
-			"contents": "require 'spec_helper'\n\ndescribe SessionsController do\n	render_views\n\n	describe \"GET 'new'\" do\n\n		it \"should be successful\" do\n			get :new\n			response.should be_success\n		end\n\n		it \"should have the right title\" do\n			get :new\n			response.should have_selector(\"title\", :content => \"Sign in\")\n		end\n	end\nend\n",
-			"file": "spec/controllers/sessions_controller_spec.rb",
-			"file_size": 305,
-			"file_write_time": 129725132543153403,
+			"file": "spec/controllers/users_controller_spec.rb",
 			"settings":
 			{
-				"buffer_size": 305,
+				"buffer_size": 5190,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/sessions/new.html.erb",
+			"file": "app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 389,
+				"buffer_size": 851,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config/routes.rb",
+			"file": "app/views/users/edit.html.erb",
 			"settings":
 			{
-				"buffer_size": 2151,
-				"line_ending": "Unix"
+				"buffer_size": 679,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/controllers/sessions_controller.rb",
+			"file": "app/helpers/sessions_helper.rb",
 			"settings":
 			{
-				"buffer_size": 135,
+				"buffer_size": 701,
 				"line_ending": "Unix"
 			}
 		}
@@ -99,26 +124,33 @@
 	},
 	"file_history":
 	[
-		"/C/Sites/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/C/Sites/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
-		"/C/Sites/rails_projects/sample_app/app/assets/stylesheets/custom.css",
-		"/C/Sites/rails_projects/sample_app/app/controllers/users_controller.rb",
-		"/C/Sites/rails_projects/sample_app/spec/requests/users_spec.rb",
-		"/C/Sites/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/users/new.html.erb",
+		"/C/Sites/rails_projects/sample_app/spec/controllers/sessions_controller_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/sessions/new.html.erb",
+		"/C/Sites/rails_projects/sample_app/config/routes.rb",
+		"/C/Sites/rails_projects/sample_app/app/controllers/sessions_controller.rb",
+		"/C/Sites/rails_projects/sample_app/app/controllers/application_controller.rb",
+		"/C/Sites/rails_projects/sample_app/app/helpers/sessions_helper.rb",
+		"/C/Sites/rails_projects/sample_app/spec/spec_helper.rb",
+		"/C/Sites/rails_projects/sample_app/app/models/user.rb",
 		"/C/Sites/rails_projects/sample_app/spec/controllers/users_controller_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/C/Sites/rails_projects/sample_app/spec/requests/layout_links_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/C/Sites/rails_projects/sample_app/spec/requests/users_spec.rb",
+		"/C/Sites/rails_projects/sample_app/.gitignore",
+		"/C/Sites/rails_projects/sample_app/app/assets/stylesheets/custom.css",
+		"/C/Sites/rails_projects/sample_app/app/views/layouts/application.html.erb",
 		"/C/Users/Cat and Rob/Documents/My Dropbox/Rails development notes-110114-RBJ.txt",
 		"/C/Sites/rails_projects/sample_app/spec/models/user_spec.rb",
-		"/C/Sites/rails_projects/sample_app/app/models/user.rb",
 		"/C/Sites/rails_projects/sample_app/app/helpers/users_helper.rb",
 		"/C/Sites/rails_projects/sample_app/spec/factories.rb",
 		"/C/Sites/rails_projects/sample_app/Gemfile",
 		"/C/Sites/rails_projects/sample_app/app/views/users/show.html.erb",
 		"/C/Sites/rails_projects/sample_app/db/migrate/20120124195601_add_email_uniqueness_index.rb",
 		"/C/Sites/rails_projects/sample_app/db/migrate/20120125202546_add_password_to_users.rb",
-		"/C/Sites/rails_projects/sample_app/config/routes.rb",
-		"/C/Sites/rails_projects/sample_app/app/helpers/application_helper.rb",
-		"/C/Sites/rails_projects/sample_app/app/views/layouts/_header.html.erb",
-		"/C/Sites/rails_projects/sample_app/spec/requests/layout_links_spec.rb",
 		"/C/Sites/rails_projects/sample_app/config/environments/production.rb",
 		"/C/Sites/rails_projects/sample_app/app/views/pages/home.html.erb",
 		"/C/Sites/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb",
@@ -132,7 +164,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -163,23 +195,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "spec/controllers/sessions_controller_spec.rb",
+					"file": "spec/controllers/users_controller_spec.rb",
 					"settings":
 					{
-						"buffer_size": 305,
+						"buffer_size": 5190,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								295,
-								295
+								5120,
+								5120
 							]
 						],
 						"settings":
@@ -189,53 +221,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3072.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/sessions/new.html.erb",
+					"file": "app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 389,
+						"buffer_size": 851,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 2151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								243,
-								243
+								847,
+								847
 							]
 						],
 						"settings":
@@ -245,6 +249,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 192.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/users/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								571,
+								571
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -252,23 +283,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "app/controllers/sessions_controller.rb",
+					"file": "app/helpers/sessions_helper.rb",
 					"settings":
 					{
-						"buffer_size": 135,
+						"buffer_size": 701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								381,
+								381
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -320,6 +353,54 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"sessions_h",
+				"app/helpers/sessions_helper.rb"
+			],
+			[
+				"_header",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"new.html",
+				"app/views/users/new.html.erb"
+			],
+			[
+				"_error",
+				"app/views/shared/_error_messages.html.erb"
+			],
+			[
+				"users_con",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"users_co",
+				"spec/controllers/users_controller_spec.rb"
+			],
+			[
+				"spec",
+				"spec/spec_helper.rb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"users_spec",
+				"spec/requests/users_spec.rb"
+			],
+			[
+				"lay",
+				"spec/requests/layout_links_spec.rb"
+			],
+			[
+				"application_",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"layout",
+				"spec/requests/layout_links_spec.rb"
+			]
 		],
 		"width": 0.0
 	},
@@ -335,6 +416,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 187.0,
+	"side_bar_width": 194.0,
 	"status_bar_visible": true
 }
