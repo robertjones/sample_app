@@ -372,7 +372,7 @@ describe UsersController do
 
 			it "should show user followers" do
 				get :followers, :id => @other_user
-				response.should have_selector("a", :href => users_path(@user),
+				response.should have_selector("a", :href => user_path(@user),
 					                                 :content => @user.name)
 			end
 		end
