@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"do",
+				"do"
+			],
+			[
 				"user",
 				"users_path"
 			],
@@ -50,10 +54,6 @@
 			[
 				"res",
 				"respond_to"
-			],
-			[
-				"do",
-				"do"
 			],
 			[
 				"redirect",
@@ -115,22 +115,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "spec/controllers/relationships_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1236,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/relationships_controller.rb",
-			"settings":
-			{
-				"buffer_size": 347,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -160,14 +144,23 @@
 	},
 	"file_history":
 	[
-		"/C/Sites/rails_projects/sample_app/app/views/users/show_follow.html.erb",
 		"/C/Sites/rails_projects/sample_app/spec/controllers/users_controller_spec.rb",
+		"/C/Sites/rails_projects/sample_app/app/views/users/_follow.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/users/_unfollow.html.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/relationships/create.js.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/relationships/destroy.js.erb",
+		"/C/Sites/rails_projects/sample_app/app/controllers/relationships_controller.rb",
+		"/C/Sites/rails_projects/sample_app/spec/controllers/relationships_controller_spec.rb",
+		"/C/Users/Cat and Rob/.ssh/id_rsa.pub",
+		"/C/Users/Cat and Rob/.ssh/known_hosts",
+		"/C/Users/Cat and Rob/.ssh/id_rsa",
+		"/C/Sites/rails_projects/sample_app/app/assets/javascripts/destroy.js.erb",
+		"/C/Sites/rails_projects/sample_app/app/assets/javascripts/create.js.erb",
+		"/C/Sites/rails_projects/sample_app/app/views/users/show_follow.html.erb",
 		"/C/Sites/rails_projects/sample_app/app/views/users/show.html.erb",
 		"/C/Sites/rails_projects/sample_app/spec/controllers/pages_controller_spec.rb",
 		"/C/Sites/rails_projects/sample_app/app/models/user.rb",
 		"/C/Sites/rails_projects/sample_app/spec/models/user_spec.rb",
-		"/C/Sites/rails_projects/sample_app/app/views/users/_unfollow.html.erb",
-		"/C/Sites/rails_projects/sample_app/app/views/users/_follow.html.erb",
 		"/C/Sites/rails_projects/sample_app/config/routes.rb",
 		"/C/Sites/rails_projects/sample_app/app/views/users/_follow_form.html.erb",
 		"/C/Sites/rails_projects/sample_app/app/controllers/users_controller.rb",
@@ -260,61 +253,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "spec/controllers/relationships_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1236,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1216,
-								1216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/controllers/relationships_controller.rb",
-					"settings":
-					{
-						"buffer_size": 347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								343,
-								343
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -359,6 +299,30 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"destroy",
+				"app/views/relationships/destroy.js.erb"
+			],
+			[
+				"create",
+				"app/views/relationships/create.js.erb"
+			],
+			[
+				"rel",
+				"app/controllers/relationships_controller.rb"
+			],
+			[
+				"_un",
+				"app/views/users/_unfollow.html.erb"
+			],
+			[
+				"_follo",
+				"app/views/users/_follow.html.erb"
+			],
+			[
+				"usersco",
+				"spec/controllers/users_controller_spec.rb"
+			],
 			[
 				"users_",
 				"app/controllers/users_controller.rb"
