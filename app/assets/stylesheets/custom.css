@@ -255,3 +255,7 @@ form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
 }
+
+tbody tr:nth-child(2n) td, tbody tr.even td {
+  background: #FFF;
+}
